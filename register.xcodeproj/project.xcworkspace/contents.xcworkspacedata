@@ -2,12 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../../../../Desktop/nasa-logo.png">
+      location = "group:../../image-swift/nasa-logo.png">
    </FileRef>
    <FileRef
-      location = "group:../../../../../Desktop/nasa-black-logo.png">
+      location = "group:../../image-swift/space.jpg">
    </FileRef>
    <FileRef
-      location = "self:register.xcodeproj">
+      location = "group:../../image-swift/stars.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

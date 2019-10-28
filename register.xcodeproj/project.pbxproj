@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08A792982366EA61001F0468 /* nasa-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A792972366EA61001F0468 /* nasa-logo.png */; };
+		08A7929A2366EA69001F0468 /* space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08A792992366EA69001F0468 /* space.jpg */; };
+		08A7929C2366EA6E001F0468 /* stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A7929B2366EA6E001F0468 /* stars.png */; };
+		08A7929E2366ED39001F0468 /* planet-water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08A7929D2366ED39001F0468 /* planet-water.jpg */; };
 		08C99C1C2354A7360018B318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C99C1B2354A7360018B318 /* AppDelegate.swift */; };
 		08C99C1E2354A7360018B318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C99C1D2354A7360018B318 /* ViewController.swift */; };
 		08C99C212354A7360018B318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C99C1F2354A7360018B318 /* Main.storyboard */; };
@@ -14,9 +18,6 @@
 		08C99C262354A7370018B318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C99C242354A7370018B318 /* LaunchScreen.storyboard */; };
 		08C99C312354A7370018B318 /* registerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C99C302354A7370018B318 /* registerTests.swift */; };
 		08C99C3C2354A7370018B318 /* registerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C99C3B2354A7370018B318 /* registerUITests.swift */; };
-		08C99C4A2354B0610018B318 /* stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C99C492354B0600018B318 /* stars.png */; };
-		08C99C4C2354B0FB0018B318 /* space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C99C4B2354B0FB0018B318 /* space.jpg */; };
-		08C99C542354BB140018B318 /* nasa-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 08C99C532354BB140018B318 /* nasa-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08A792972366EA61001F0468 /* nasa-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nasa-logo.png"; path = "../../image-swift/nasa-logo.png"; sourceTree = "<group>"; };
+		08A792992366EA69001F0468 /* space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = space.jpg; path = "../../image-swift/space.jpg"; sourceTree = "<group>"; };
+		08A7929B2366EA6E001F0468 /* stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stars.png; path = "../../image-swift/stars.png"; sourceTree = "<group>"; };
+		08A7929D2366ED39001F0468 /* planet-water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "planet-water.jpg"; path = "../../image-swift/planet-water.jpg"; sourceTree = "<group>"; };
 		08C99C182354A7360018B318 /* register.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = register.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C99C1B2354A7360018B318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08C99C1D2354A7360018B318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,9 +55,6 @@
 		08C99C372354A7370018B318 /* registerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = registerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C99C3B2354A7370018B318 /* registerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerUITests.swift; sourceTree = "<group>"; };
 		08C99C3D2354A7370018B318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08C99C492354B0600018B318 /* stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stars.png; path = ../../../../../Desktop/stars.png; sourceTree = "<group>"; };
-		08C99C4B2354B0FB0018B318 /* space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = space.jpg; path = ../../../../../Desktop/space.jpg; sourceTree = "<group>"; };
-		08C99C532354BB140018B318 /* nasa-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nasa-logo.png"; path = "../../../../../Desktop/nasa-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +105,12 @@
 		08C99C1A2354A7360018B318 /* register */ = {
 			isa = PBXGroup;
 			children = (
+				08A792972366EA61001F0468 /* nasa-logo.png */,
+				08A7929B2366EA6E001F0468 /* stars.png */,
+				08A792992366EA69001F0468 /* space.jpg */,
 				08C99C1B2354A7360018B318 /* AppDelegate.swift */,
 				08C99C1D2354A7360018B318 /* ViewController.swift */,
-				08C99C532354BB140018B318 /* nasa-logo.png */,
-				08C99C4B2354B0FB0018B318 /* space.jpg */,
-				08C99C492354B0600018B318 /* stars.png */,
+				08A7929D2366ED39001F0468 /* planet-water.jpg */,
 				08C99C1F2354A7360018B318 /* Main.storyboard */,
 				08C99C222354A7370018B318 /* Assets.xcassets */,
 				08C99C242354A7370018B318 /* LaunchScreen.storyboard */,
@@ -238,10 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A7929E2366ED39001F0468 /* planet-water.jpg in Resources */,
 				08C99C262354A7370018B318 /* LaunchScreen.storyboard in Resources */,
-				08C99C4A2354B0610018B318 /* stars.png in Resources */,
-				08C99C4C2354B0FB0018B318 /* space.jpg in Resources */,
-				08C99C542354BB140018B318 /* nasa-logo.png in Resources */,
+				08A7929C2366EA6E001F0468 /* stars.png in Resources */,
+				08A792982366EA61001F0468 /* nasa-logo.png in Resources */,
+				08A7929A2366EA69001F0468 /* space.jpg in Resources */,
 				08C99C232354A7370018B318 /* Assets.xcassets in Resources */,
 				08C99C212354A7360018B318 /* Main.storyboard in Resources */,
 			);
